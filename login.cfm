@@ -9,7 +9,7 @@ In practice, you would likely only show the pwned error and an OK result would w
 
 
 <cfif structkeyexists(form, "loginPwd")>
-	<cfinvoke component="cfc.hibp" method="pwnChk" returnvariable="local.result">
+	<cfinvoke component="hibp" method="pwnChk" returnvariable="local.result">
 		<cfinvokeargument name="pwd" value="#form.loginpwd#">
 	</cfinvoke>
 <style>
