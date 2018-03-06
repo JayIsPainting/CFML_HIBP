@@ -5,6 +5,7 @@ Checks supplied password against 500 million known compromised passwords securel
 See links for more details.
 
 https://www.troyhunt.com/ive-just-launched-pwned-passwords-version-2/
+
 https://www.troyhunt.com/i-wanna-go-fast-why-searching-through-500m-pwned-passwords-is-so-quick/
 
 
