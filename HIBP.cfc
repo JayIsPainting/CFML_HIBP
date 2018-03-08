@@ -4,6 +4,7 @@
 	---
 	--- author: jaybigam
 	--- date:   3/6/18
+	--- Anyone wants to provide improved regex string parsing...have at er. 
 	--->
 <cfcomponent accessors="true" output="false" persistent="false">
 
