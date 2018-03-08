@@ -8,11 +8,12 @@ https://www.troyhunt.com/ive-just-launched-pwned-passwords-version-2/
 
 https://www.troyhunt.com/i-wanna-go-fast-why-searching-through-500m-pwned-passwords-is-so-quick/
 
-
+v1.2 now using Range function due to upcoming deprecation of single password has search. Range also provides improved performance and k-anonymity
 
 Contains 
 HIBP.cfc with 1 function to invoke the api call
 login.cfm example login form.
+
 
 See...it's simple.
 
