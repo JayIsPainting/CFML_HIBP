@@ -15,7 +15,6 @@
 		<cfset local.suffix = right(hash(arguments.pwd, "SHA"),5)>
 		<cfhttp url="https://api.pwnedpasswords.com/range/#local.prefix#" method="get" userAgent="CFML_PwnChk" >
 		</cfhttp>
-		<cfset local.re1 = local.prefix>
 		<cfset local.re2 = local.suffix>
 		<CFSET local.string = cfhttp.filecontent>
 		<!--- find position of suffix occurence --->
